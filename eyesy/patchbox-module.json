@@ -1,0 +1,23 @@
+{
+    "name": "Eyesy",
+    "version": "1.0.0",
+    "description": "EYESY for RaspberryPi",
+    "author": "jqrsound",
+    "depends_on": [
+                   "jack.service",
+                   {
+                   "service": "amidiauto.service",
+                   "config": "amidiauto.conf"
+                   },
+                   {
+                   "service": "pisound-btn.service",
+                   "config": "pisound-btn.conf"
+                   },
+                   "pisound-ctl.service",
+                   "touchosc2midi.service",
+                   ],
+    "scripts": {
+        "install": "install.sh",
+        "list": "list.sh",
+    }
+}
