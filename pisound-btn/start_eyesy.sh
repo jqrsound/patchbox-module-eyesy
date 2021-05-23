@@ -4,9 +4,10 @@ flash_leds 10
 
 #!/bin/bash
 echo starting Eyesy
-cd ~/Eyesy
+cd home/patch/Eyesy
 
 touch /tmp/video.log
+
 #amixer cset numid=11 on
 
 systemctl start eyesy-python.service
