@@ -18,6 +18,7 @@ get_pd_entry() {
 }
 
 
+
 find "$PUREDATA_PATCHES_DIR/" | egrep \(main\\.pd\$\|blokas\\.yml\$\) | while read -r i; do
     if echo "$i" | grep -q blokas.yml\$; then
         get_pd_entry "$i"

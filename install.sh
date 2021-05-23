@@ -32,8 +32,8 @@ sudo systemctl daemon-reload
 sudo apt-get install -y puredata pisound-ctl amidiauto pisound-ctl-scripts-puredata
 
 # Dependencies and Codecs
-chmod 755 install_dependencies.sh 
-chmod 755 install_codecs.sh 
+chmod 755 install_dependencies.sh
+chmod 755 install_codecs.sh
 sudo ./install_dependencies.sh && sudo ./install_codecs.sh
 sudo mv *.sh shellscript
 

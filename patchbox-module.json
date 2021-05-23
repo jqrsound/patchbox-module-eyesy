@@ -1,7 +1,7 @@
 {
     "name": "Eyesy",
     "version": "1.0.0",
-    "description": "EYESY for RaspberryPi",
+    "description": "EYESY for RaspberryPi w/ PiSound",
     "author": "jqrsound",
     "depends_on": [
                    "jack.service",

@@ -7,7 +7,6 @@ echo starting Eyesy
 cd ~/Eyesy
 
 touch /tmp/video.log
-
 #amixer cset numid=11 on
 
 systemctl start eyesy-python.service
