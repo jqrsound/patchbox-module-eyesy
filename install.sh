@@ -29,7 +29,7 @@ sudo cp systemd/* /etc/systemd/system
 sudo systemctl daemon-reload
 
 # Pure Data and PiSound packages
-sudo apt-get install -y puredata pisound-ctl amidiauto pisound-ctl-scripts-puredata
+sudo apt-get install -y puredata pisound-ctl amidiauto pisound-ctl-scripts-puredata mec
 
 # Dependencies and Codecs
 chmod 755 install_dependencies.sh
