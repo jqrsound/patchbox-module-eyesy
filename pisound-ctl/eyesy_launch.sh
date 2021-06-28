@@ -26,4 +26,4 @@ echo "$@"
 	aconnect "pisound-ctl" "Pure Data";
 	aconnect -d "Pure Data:1" "pisound-ctl"
 ) &
-start_puredata "$PATCH" $@ß
+start_puredata "$PATCH" $@
